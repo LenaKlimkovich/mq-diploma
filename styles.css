@@ -882,7 +882,7 @@ border-bottom: #b69f5b 1px solid;
  }
 
  .hidden {
-
+display: none;
  }
 
  @media (min-width: 641px) and (max-width: 1199px) and (orientation: portrait) {
