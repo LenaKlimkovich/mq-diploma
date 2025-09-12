@@ -341,23 +341,27 @@
         </footer>
         <div class="pop-up-wrapper hidden">
             <div class="pop-up">
-                <button class="close-button" type="button"></button>
+                <button class="close-button" type="button"><img src="svg/form-x.svg"></button>
                 <h2 class="pop-up-title">Ваш фидбек</h2>
                 <form class="pop-up-form">
                     <label for="answer">Как часто вы заходите на сайт?</label>
                     <div class="select-wrapper">
+                        <div class="select-icon"></div>
                       <select id="answer" name="days">
                         <option value="every-day">Почти каждый день</option>
-                        <option value="seldom">Редко</option>
-                        <option value="once-a-month">Раз в месяц</option>
+                        <option value="seldom">Раз в несколько дней</option>
+                        <option value="once-a-month">Раз в несколько недель</option>
+                        <option value="once-a-year">Несколько раз в год</option>
                     </select>
                   </div>
                     <fieldset class="subscribe">
                         <legend class="subscribe-legend">Вы подписаны на e-mail рассылку?</legend>
+                        <div class="radio-container">
                         <input type="radio" id="yes" value="Да" checked />
                         <label for="yes">Да</label>
                         <input type="radio" id="no" value="Нет" />
                         <label for="no">Нет</label>
+                        </div>
                     </fieldset>
                     <label for="story">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
                     <textarea id="story" placeholder="Может, больше рецептов?">
